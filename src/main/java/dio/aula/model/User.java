@@ -11,6 +11,7 @@ import javax.persistence.*;
 @Setter
 @Entity
 @ToString
+@Table(name = "tab_user")
 public class User {
 
     @Id
